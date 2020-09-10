@@ -2,6 +2,8 @@
 body{
     margin: 0;
     color: black;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 ul{
     margin: 0;
@@ -32,6 +34,7 @@ nav li a{
 
 /*header styles*/
 header{
+    font-family: 'Raleway', sans-serif;
     background-color: black;
     color: grey;
     display:flex;
