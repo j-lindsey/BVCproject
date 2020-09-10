@@ -17,6 +17,7 @@ ul{
     display: flex;
     align-items: center;
     list-style: none;
+    box-shadow: 4px 5px 15px 5px rgba(0,0,0,0.81);
     
 }
 .sticky{
@@ -35,6 +36,7 @@ nav li a{
 /*header styles*/
 header{
     font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
     background-color: black;
     color: grey;
     display:flex;
@@ -44,12 +46,26 @@ header{
 }
 /*page sections*/
 section{
+    text-align: center;
     border-radius:20px;
     border:1px solid #bbb;
     margin: 2em;
     padding: 1em;
-    height: 20vh;
+    box-shadow: 4px 5px 15px 5px rgba(0,0,0,0.81);
 }
+section h2{
+    font-size: 2em;
+}
+.section-flex{
+    display:flex;
+    justify-content: space-evenly;
+}
+/*development section*/
+.development-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /*disclaimer style*/
 .disclaimer{
     display: flex;
