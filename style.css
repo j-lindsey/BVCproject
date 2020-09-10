@@ -1,7 +1,7 @@
 /*reset browser defaults*/
 body{
     margin: 0;
-    color: black;
+    color: #0a090c;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -29,7 +29,7 @@ nav li{
     padding: 0.5em 1em;
 }
 nav li a{
-    color: black;
+    color: #0a090c;
     text-decoration: none;
 }
 
@@ -37,8 +37,10 @@ nav li a{
 header{
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
-    background-color: black;
-    color: grey;
+    background-image: url("shapelined-K9QHL52rE2k-unsplash.jpg");
+    background-size: auto;
+    background-position: center;
+    color: #bbb;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +75,7 @@ section h2{
 }
 /*disclaimer style*/
 .footer{
-    background-color: black;
+    background-color:#0a090c;
     list-style:none;
     display: flex;
     justify-content: space-between;
@@ -90,6 +92,6 @@ section h2{
     list-style:none;
 }
 footer a{
-    color: white;
+    color:white;
     text-decoration: none;
 }
